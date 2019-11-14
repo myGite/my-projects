@@ -8,4 +8,5 @@ com\yaxin\my\projects\domain\StoreActivity.class
 com\yaxin\my\projects\domain\OrderDetail.class
 com\yaxin\my\projects\domain\User.class
 com\yaxin\my\projects\domain\Store.class
+com\yaxin\my\projects\domain\carousel.class
 com\yaxin\my\projects\domain\StoreReview.class

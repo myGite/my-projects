@@ -20,6 +20,8 @@ public class Goods implements Serializable {
     private String goodsimg;
     //商品所属类型id集
     private String goodstypeids;
+    //商家id
+    private Integer storeid;
 
     public Integer getGoodsid() {
         return goodsid;
@@ -77,6 +79,14 @@ public class Goods implements Serializable {
         this.goodstypeids = goodstypeids;
     }
 
+    public Integer getStoreid() {
+        return storeid;
+    }
+
+    public void setStoreid(Integer storeid) {
+        this.storeid = storeid;
+    }
+
     @Override
     public String toString() {
         return "Goods{" +
@@ -87,6 +97,7 @@ public class Goods implements Serializable {
                 ", goodpercent=" + goodpercent +
                 ", goodsimg='" + goodsimg + '\'' +
                 ", goodstypeids='" + goodstypeids + '\'' +
+                ", storeid=" + storeid +
                 '}';
     }
 }
