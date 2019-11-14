@@ -7,65 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4491d332-5f3b-4328-aef0-b1431efd2447" name="Default" comment="这个版本是第二次更新">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/dao/CarouselDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/service/CarouselService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/service/impl/CarouselServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/resources/mapper/CarouselMapper.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-commons/target/classes/com/yaxin/my/projects/commons/dto/BaseResult.class" afterPath="$PROJECT_DIR$/my-projects-commons/target/classes/com/yaxin/my/projects/commons/dto/BaseResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-commons/target/classes/com/yaxin/my/projects/commons/utils/RegexpUtils.class" afterPath="$PROJECT_DIR$/my-projects-commons/target/classes/com/yaxin/my/projects/commons/utils/RegexpUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-commons/target/classes/com/yaxin/my/projects/commons/validator/BeanValidator.class" afterPath="$PROJECT_DIR$/my-projects-commons/target/classes/com/yaxin/my/projects/commons/validator/BeanValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-commons/target/my-projects-commons-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-projects-commons/target/my-projects-commons-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-domain/target/classes/com/yaxin/my/projects/domain/Goods.class" afterPath="$PROJECT_DIR$/my-projects-domain/target/classes/com/yaxin/my/projects/domain/Goods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-domain/target/my-projects-domain-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-projects-domain/target/my-projects-domain-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/dao/GoodsDAO.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/dao/GoodsDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/GoodsService.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/GoodsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/impl/GoodsServiceImpl.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/impl/GoodsServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/OrderController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/OrderController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/OrderDetailController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/OrderDetailController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/dao/GoodsDAO.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/dao/GoodsDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/GoodsService.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/GoodsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/impl/GoodsServiceImpl.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/impl/GoodsServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/OrderController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/OrderController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/OrderDetailController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/OrderDetailController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-projects-commons-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-projects-commons-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-projects-domain-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-projects-domain-1.0.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-domain/target/classes/com/yaxin/my/projects/domain/Carousel.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/dao/CarouselDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/CarouselService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/impl/CarouselServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/dao/CarouselDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/CarouselService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/impl/CarouselServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/mapper/CarouselMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/CarouselMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-commons/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-projects-commons/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-domain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-projects-domain/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/my-projects-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-projects-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/dao/GoodsDAO.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/dao/GoodsDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/service/GoodsService.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/service/GoodsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/service/impl/GoodsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/OrderController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/OrderController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/OrderDetailController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/OrderDetailController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/StoreController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/StoreController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/UserController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/resources/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/resources/mapper/GoodsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/mapper/GoodsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/GoodsMapper.xml" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/GoodsMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/my-projects-domain/src/main/java/com/yaxin/my/projects/domain/carousel.java" afterPath="$PROJECT_DIR$/my-projects-domain/src/main/java/com/yaxin/my/projects/domain/Carousel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-projects-dependencies/target/" />
@@ -84,20 +36,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="250">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CarController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="-400">
               <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
@@ -285,116 +237,6 @@
             <path>
               <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -657,7 +499,7 @@
       <workItem from="1573694595692" duration="991000" />
       <workItem from="1573695719873" duration="6466000" />
       <workItem from="1573709448269" duration="270000" />
-      <workItem from="1573711605501" duration="7479000" />
+      <workItem from="1573711605501" duration="7670000" />
     </task>
     <task id="LOCAL-00001" summary="商品实体层增加了一个商店的属性storeid&#10;新建了一个图片轮播的实体层">
       <created>1573716395909</created>
@@ -666,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573716395909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="这个版本是第二次更新">
+      <created>1573721865300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573721865300</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -702,7 +551,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219771000" />
+    <option name="totallyTimeSpent" value="219962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,7 +564,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32579187" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
@@ -734,11 +582,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32579187" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32579187" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2725322" sideWeight="0.49224806" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2725322" sideWeight="0.49224806" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1164,18 +1012,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarController.java">
+    <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="250">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java">
+    <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="-400">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
