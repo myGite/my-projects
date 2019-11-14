@@ -25,4 +25,17 @@ public interface GoodsService {
      */
     List<Goods> findAll();
 
+    /**
+     * 根据商家的id，获取商家的所有商品
+     */
+    List<Goods> findByStoreid(Integer storeid);
+
+    /**
+     * 根据商家的id 和 商品类型的id 获取所有的商品
+     * @param storeid
+     * @param goodstypeid
+     * @return
+     */
+    List<Goods> findByTowid(Integer storeid, Integer goodstypeid);
+
 }

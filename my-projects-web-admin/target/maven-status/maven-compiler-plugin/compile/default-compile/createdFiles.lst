@@ -7,6 +7,7 @@ com\yaxin\my\projects\web\admin\web\controller\OrderController.class
 com\yaxin\my\projects\web\admin\service\impl\OrderDetailServiceImpl.class
 com\yaxin\my\projects\web\admin\web\controller\CarController.class
 com\yaxin\my\projects\web\admin\dao\GoodsTypeDAO.class
+com\yaxin\my\projects\web\admin\service\impl\CarouselServiceImpl.class
 com\yaxin\my\projects\web\admin\dao\UserDAO.class
 com\yaxin\my\projects\web\admin\dao\GoodsDAO.class
 com\yaxin\my\projects\web\admin\service\UserService.class
@@ -14,6 +15,7 @@ com\yaxin\my\projects\web\admin\service\impl\CarServiceImpl.class
 com\yaxin\my\projects\web\admin\web\controller\UserController.class
 com\yaxin\my\projects\web\admin\dao\StoreReviewDAO.class
 com\yaxin\my\projects\web\admin\web\controller\RouteController.class
+com\yaxin\my\projects\web\admin\service\CarouselService.class
 com\yaxin\my\projects\web\admin\service\impl\StoreReviewServiceImpl.class
 com\yaxin\my\projects\web\admin\web\controller\BathController.class
 com\yaxin\my\projects\web\admin\dao\OrderDao.class
@@ -24,6 +26,7 @@ com\yaxin\my\projects\web\admin\web\controller\GoodsController.class
 com\yaxin\my\projects\web\admin\dao\StoreDAO.class
 com\yaxin\my\projects\web\admin\service\CarService.class
 com\yaxin\my\projects\web\admin\web\controller\StoreController.class
+com\yaxin\my\projects\web\admin\dao\CarouselDAO.class
 com\yaxin\my\projects\web\admin\dao\OrderDetailDAO.class
 com\yaxin\my\projects\web\admin\dao\StoreActivityDAO.class
 com\yaxin\my\projects\web\admin\service\GoodsService.class

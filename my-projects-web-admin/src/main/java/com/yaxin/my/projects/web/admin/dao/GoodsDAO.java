@@ -25,4 +25,21 @@ public interface GoodsDAO {
      * @return
      */
     List<Goods> selectAll();
+
+    /**
+     * 根据传入一个商家的id，从而获取该商家的所有商品
+     * @param storeid
+     * @return
+     */
+    List<Goods> selectByStoreid(Integer storeid);
+
+    /**
+     * 根据传入的商家id和商品类型的id，查询出所有商品
+     *
+     * 约定：传入的第一个key---value是商家的id
+     *       传入的第二个key---value是商品类型的id
+     * @param map
+     * @return
+     */
+    List<Goods> selectByTwoid(Map<String,Integer> map);
 }

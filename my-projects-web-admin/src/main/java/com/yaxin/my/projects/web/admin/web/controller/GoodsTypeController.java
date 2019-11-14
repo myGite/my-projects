@@ -17,7 +17,7 @@ import java.util.List;
  * 商品类型控制层
  */
 @Controller
-@RequestMapping(value = "/shop")
+@RequestMapping(value = "/api/shop")
 public class GoodsTypeController extends BathController {
     @Autowired
     private GoodsTypeService goodsTypeService;

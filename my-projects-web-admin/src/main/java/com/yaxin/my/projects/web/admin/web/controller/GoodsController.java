@@ -2,7 +2,9 @@ package com.yaxin.my.projects.web.admin.web.controller;
 
 import com.yaxin.my.projects.commons.dto.BaseResult;
 import com.yaxin.my.projects.domain.Goods;
+import com.yaxin.my.projects.domain.GoodsType;
 import com.yaxin.my.projects.web.admin.service.GoodsService;
+import com.yaxin.my.projects.web.admin.service.GoodsTypeService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,10 +24,13 @@ import java.util.Map;
  * 商品控制层
  */
 @Controller
-@RequestMapping(value = "/shop")
+@RequestMapping(value = "/api/shop")
 public class GoodsController extends BathController {
     @Autowired
     private GoodsService goodsService;
+
+    @Autowired
+    private GoodsTypeService goodsTypeService;
 
     /**
      * 关于一定类型的商品显示
@@ -71,6 +77,39 @@ public class GoodsController extends BathController {
         List<Goods> goodsList = goodsService.findAll();
         model.addAttribute("goodsList",goodsList);
         baseResult=BaseResult.success("所有的商品信息如下所示：",model);
+        return baseResult;
+    }
+
+
+    /**
+     * 通过出入的商家id，从而响应商品所有的类型和每一种类型中有哪一些商品
+     * @param request
+     * @param model
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "/all")
+    public BaseResult goodsAllFun(HttpServletRequest request, Model model){
+        //引入自定义的后台向前台响应的结果集
+        BaseResult baseResult=null;
+        //前台需要传入商家的id
+        String storeid1 = request.getParameter("storeid");
+        int storeid = Integer.parseInt(storeid1);
+        List<GoodsType> goodsTypeList = goodsTypeService.findAll();
+        List<Map<String,Object>> foodList = new ArrayList<>();
+        Map<String,Object> map = new HashMap<>();
+        int goodsTypeid;
+        for (GoodsType goodsType : goodsTypeList){
+            goodsTypeid=goodsType.getGoodstypeid();
+            List<Goods> goodsList = goodsService.findByTowid(storeid, goodsTypeid);
+            map.put(goodsList.toString(),goodsList);
+            foodList.add(map);
+        }
+        //获取所有的商品类型
+        List<GoodsType> goodsTypes = goodsTypeService.findAll();
+        model.addAttribute("foods",foodList);
+        model.addAttribute("goodsTypes",goodsTypes);
+        baseResult = BaseResult.success("获取数据成功！",model);
         return baseResult;
     }
 }

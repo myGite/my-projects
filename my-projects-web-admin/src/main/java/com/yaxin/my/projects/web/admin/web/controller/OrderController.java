@@ -18,7 +18,7 @@ import java.util.List;
  * 订单的控制层
  */
 @Controller
-@RequestMapping(value = "/order")
+@RequestMapping(value = "/api/order")
 public class OrderController {
 
     @Autowired

@@ -23,7 +23,7 @@ import java.util.List;
  * 用户控制层
  */
 @Controller
-@RequestMapping(value = "/user")
+@RequestMapping(value = "/api/user")
 public class UserController extends BathController {
 
     @Autowired

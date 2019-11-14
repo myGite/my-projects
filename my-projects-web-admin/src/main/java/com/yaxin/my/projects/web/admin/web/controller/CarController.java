@@ -20,7 +20,7 @@ import java.util.Map;
  * 加入购物车的控制层
  */
 @Controller
-@RequestMapping("/car")
+@RequestMapping("/api/car")
 public class CarController extends BathController {
 
     @Autowired

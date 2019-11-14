@@ -16,7 +16,7 @@ import java.util.Map;
  * 订单详情的控制器
  */
 @Controller
-@RequestMapping(value = "/orderdetail")
+@RequestMapping(value = "/api/orderdetail")
 public class OrderDetailController {
 
     @Autowired

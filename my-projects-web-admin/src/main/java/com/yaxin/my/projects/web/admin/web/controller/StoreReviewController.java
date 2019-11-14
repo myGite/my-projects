@@ -21,7 +21,7 @@ import java.util.Map;
  * 商家评论的控制层
  */
 @Controller
-@RequestMapping(value = "/storereview")
+@RequestMapping(value = "/api/storereview")
 public class StoreReviewController extends BathController {
 
     @Autowired

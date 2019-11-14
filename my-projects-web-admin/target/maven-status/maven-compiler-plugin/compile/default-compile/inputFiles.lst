@@ -10,6 +10,7 @@ D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\y
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\impl\GoodsServiceImpl.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\RouteController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\CarDAO.java
+D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\CarouselDAO.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\GoodsDAO.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\OrderDetailController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\GoodsTypeDAO.java
@@ -18,12 +19,14 @@ D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\y
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\GoodsService.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\GoodsTypeService.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\impl\StoreServiceImpl.java
+D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\CarouselService.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\OrderService.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\StoreActivityDAO.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\CarService.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\StoreActivityService.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\BathController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\CarController.java
+D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\impl\CarouselServiceImpl.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\UserController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\StoreController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\StoreService.java
