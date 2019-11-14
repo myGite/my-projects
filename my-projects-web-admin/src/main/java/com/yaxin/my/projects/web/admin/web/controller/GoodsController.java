@@ -101,7 +101,7 @@ public class GoodsController extends BathController {
         for (GoodsType goodsType : goodsTypeList){
             goodsTypeid=goodsType.getGoodstypeid();
             List<Goods> goodsList = goodsService.findByTowid(storeid, goodsTypeid);
-            map.put(goodsList.toString(),goodsList);
+            map.put(String.valueOf(goodsTypeid),goodsList);
         }
         //获取所有的商品类型
         List<GoodsType> goodsTypes = goodsTypeService.findAll();

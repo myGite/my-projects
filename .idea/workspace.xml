@@ -11,6 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java" afterPath="$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +34,8 @@
       <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+            <state relative-caret-position="203">
+              <caret line="104" column="9" lean-forward="false" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -221,6 +222,11 @@
             <path>
               <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="my-projects-web-admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -483,7 +489,7 @@
       <workItem from="1573694595692" duration="991000" />
       <workItem from="1573695719873" duration="6466000" />
       <workItem from="1573709448269" duration="270000" />
-      <workItem from="1573711605501" duration="8935000" />
+      <workItem from="1573711605501" duration="10130000" />
     </task>
     <task id="LOCAL-00001" summary="商品实体层增加了一个商店的属性storeid&#10;新建了一个图片轮播的实体层">
       <created>1573716395909</created>
@@ -513,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573724203855</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="这个版本是第三次更新">
+      <created>1573724226018</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573724226018</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -549,7 +562,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221227000" />
+    <option name="totallyTimeSpent" value="222422000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,7 +620,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="商品实体层增加了一个商店的属性storeid&#10;新建了一个图片轮播的实体层" />
     <MESSAGE value="这个版本是第二次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="这个版本是第二次更新" />
+    <MESSAGE value="这个版本是第三次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="这个版本是第三次更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1021,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+        <state relative-caret-position="203">
+          <caret line="104" column="9" lean-forward="false" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
           <folding />
         </state>
       </provider>
