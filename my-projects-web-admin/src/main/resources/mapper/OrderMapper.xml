@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yaxin.my.projects.web.admin.dao.OrderDao">
+
+    <select id="selectByUserid" resultType="com.yaxin.my.projects.domain.Order" parameterType="java.lang.Integer">
+        SELECT
+            orderid,
+            userid,
+            orderDate
+        FROM
+            my_order
+        WHERE
+            userid = #{userid}
+    </select>
+
+    <select id="selectOrderid" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        SELECT
+          MAX(orderid)
+        FROM my_order
+        WHERE userid = #{userid}
+    </select>
+
+    <insert id="insertOrders" parameterType="com.yaxin.my.projects.domain.Order">
+        INSERT INTO takeaway.my_order
+        (
+        orderid,
+        userid,
+        orderDate
+        )
+        VALUES
+        (
+        #{orderid},
+        #{userid},
+        #{orderDate}
+        )
+    </insert>
+
+</mapper>

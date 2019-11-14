@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yaxin.my.projects.web.admin.dao.StoreActivityDAO">
+
+    <select id="selectStoreActivityById" parameterType="java.util.List" resultType="com.yaxin.my.projects.domain.StoreActivity">
+        SELECT * FROM my_store_activity WHERE activityid IN
+        <foreach collection="storeActivityList" item="item" open="(" close=")" separator="," index="">
+            #{item}
+        </foreach>
+    </select>
+
+</mapper>

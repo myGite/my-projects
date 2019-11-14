@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yaxin.my.projects.web.admin.dao.GoodsDAO">
+
+    <select id="selectByTypeId" parameterType="java.util.Map" resultType="com.yaxin.my.projects.domain.Goods">
+        <foreach collection="goodsMap" index="key" item="value" separator=";">
+            SELECT 	goodsid,
+            goodsname,
+            goodsprice,
+            monthsale,
+            goodpercent,
+            goodsimg,
+            goodstypeids
+
+            FROM
+            takeaway.my_goods
+            WHERE 1=1
+            <if test="#{value} != null and #{value} != ''">
+                and goodstypeids LIKE concat('%',#{value},'%')
+            </if>
+        </foreach>
+    </select>
+
+    <select id="selectByColumns" resultType="com.yaxin.my.projects.domain.Goods" parameterType="com.yaxin.my.projects.domain.Goods">
+        SELECT 	goodsid,
+        goodsname,
+        goodsprice,
+        monthsale,
+        goodpercent,
+        goodsimg,
+        goodstypeids
+
+        FROM
+        takeaway.my_goods
+        <where>
+            <if test="goodsid != null and goodsid != ''">
+                AND goodsid = #{goodsid}
+            </if>
+            <if test="goodsname !=null and goodsname != ''">
+                AND goodsname = #{goodsname}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectAll" resultType="com.yaxin.my.projects.domain.Goods">
+        SELECT 	goodsid,
+        goodsname,
+        goodsprice,
+        monthsale,
+        goodpercent,
+        goodsimg,
+        goodstypeids
+
+        FROM
+        takeaway.my_goods
+    </select>
+
+</mapper>

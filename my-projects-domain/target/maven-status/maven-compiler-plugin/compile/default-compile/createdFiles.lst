@@ -1,0 +1,11 @@
+com\yaxin\my\projects\domain\Order.class
+com\yaxin\my\projects\domain\ActivityType.class
+com\yaxin\my\projects\domain\Deliver.class
+com\yaxin\my\projects\domain\GoodsType.class
+com\yaxin\my\projects\domain\Goods.class
+com\yaxin\my\projects\domain\Car.class
+com\yaxin\my\projects\domain\StoreActivity.class
+com\yaxin\my\projects\domain\OrderDetail.class
+com\yaxin\my\projects\domain\User.class
+com\yaxin\my\projects\domain\Store.class
+com\yaxin\my\projects\domain\StoreReview.class

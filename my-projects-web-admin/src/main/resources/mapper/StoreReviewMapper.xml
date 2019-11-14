@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yaxin.my.projects.web.admin.dao.StoreReviewDAO">
+
+    <select id="selectStoreReview" resultType="java.util.Map" parameterType="java.lang.Integer">
+        SELECT
+        u.nickname,
+        u.avatar,
+        r.text,
+        r.rateType,
+        r.rateTime,
+        r.score,
+        r.recommend,
+        s.storename
+        FROM my_store_review r,
+        my_user u,
+        my_store s
+        WHERE r.userid = u.id
+        AND r.storeid = s.storeid
+        AND s.storeid = #{storeid}
+
+    </select>
+
+    <insert id="insertStoerReview" parameterType="com.yaxin.my.projects.domain.StoreReview">
+        INSERT INTO takeaway.my_store_review
+        (storeid,
+        TEXT,
+        rateType,
+        userid,
+        rateTime,
+        score,
+        recommend
+        )
+        VALUES
+        (#{storeid},
+        #{text},
+        #{rateType},
+        #{userid},
+        #{rateTime},
+        #{score},
+        #{recommend}
+        );
+    </insert>
+
+</mapper>

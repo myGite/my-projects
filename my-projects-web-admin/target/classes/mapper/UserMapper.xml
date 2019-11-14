@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yaxin.my.projects.web.admin.dao.UserDAO">
+
+    <select id="selectByNickname" parameterType="java.lang.String" resultType="com.yaxin.my.projects.domain.User">
+        SELECT 	id,
+        nickname,
+        PASSWORD,
+        tel,
+        address,
+        avatar
+
+        FROM
+        takeaway.my_user
+        WHERE
+        nickname = #{nickname}
+    </select>
+
+    <insert id="insertUser" parameterType="com.yaxin.my.projects.domain.User">
+        INSERT INTO takeaway.my_user
+        (
+        nickname,
+        PASSWORD,
+        tel,
+        address,
+        avatar
+        )
+        VALUES
+        (
+        #{nickname},
+        #{tel},
+        #{password},
+        #{address},
+        #{avatar}
+        )
+    </insert>
+
+    <select id="selectByColumns" parameterType="com.yaxin.my.projects.domain.User" resultType="com.yaxin.my.projects.domain.User">
+        SELECT 	id,
+        nickname,
+        PASSWORD,
+        tel,
+        address,
+        avatar
+
+        FROM
+        takeaway.my_user
+        <where>
+            <if test="nickname != null and nickname != ''">
+                AND  nickname = #{nickname}
+            </if>
+            <if test="password != null and password != ''">
+                AND  password = #{password}
+            </if>
+            <if test="tel != null and tel != ''">
+                AND  tel = #{tel}
+            </if>
+            <if test="address != null and address != ''">
+                AND  address = #{address}
+            </if>
+            <if test="avatar != null and avatar != ''">
+                AND  avatar = #{avatar}
+            </if>
+        </where>
+    </select>
+
+</mapper>
