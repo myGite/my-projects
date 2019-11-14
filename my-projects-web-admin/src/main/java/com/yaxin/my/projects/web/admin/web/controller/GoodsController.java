@@ -96,18 +96,16 @@ public class GoodsController extends BathController {
         String storeid1 = request.getParameter("storeid");
         int storeid = Integer.parseInt(storeid1);
         List<GoodsType> goodsTypeList = goodsTypeService.findAll();
-        List<Map<String,Object>> foodList = new ArrayList<>();
         Map<String,Object> map = new HashMap<>();
         int goodsTypeid;
         for (GoodsType goodsType : goodsTypeList){
             goodsTypeid=goodsType.getGoodstypeid();
             List<Goods> goodsList = goodsService.findByTowid(storeid, goodsTypeid);
             map.put(goodsList.toString(),goodsList);
-            foodList.add(map);
         }
         //获取所有的商品类型
         List<GoodsType> goodsTypes = goodsTypeService.findAll();
-        model.addAttribute("foods",foodList);
+        model.addAttribute("foods",map);
         model.addAttribute("goodsTypes",goodsTypes);
         baseResult = BaseResult.success("获取数据成功！",model);
         return baseResult;
