@@ -7,31 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4491d332-5f3b-4328-aef0-b1431efd2447" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/dao/StoreDAO.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/dao/StoreDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/StoreService.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/StoreService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/impl/StoreServiceImpl.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/impl/StoreServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/dao/StoreDAO.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/dao/StoreDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/StoreService.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/StoreService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/impl/StoreServiceImpl.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/impl/StoreServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/mapper/StoreMapper.xml" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/mapper/StoreMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/StoreMapper.xml" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/StoreMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-projects-dependencies/target/" />
@@ -63,11 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoreController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StoreController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/StoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+            <state relative-caret-position="150">
+              <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarouselController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarouselController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -619,7 +607,7 @@
       <workItem from="1573709448269" duration="270000" />
       <workItem from="1573711605501" duration="10893000" />
       <workItem from="1573784072669" duration="2454000" />
-      <workItem from="1574059269828" duration="2864000" />
+      <workItem from="1574059269828" duration="3255000" />
     </task>
     <task id="LOCAL-00001" summary="商品实体层增加了一个商店的属性storeid&#10;新建了一个图片轮播的实体层">
       <created>1573716395909</created>
@@ -677,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574066468632</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="这个版本是第六次更新">
+      <created>1574066506094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574066506094</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -713,7 +708,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228503000" />
+    <option name="totallyTimeSpent" value="228894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,7 +773,8 @@
     <MESSAGE value="这个版本是第三次更新" />
     <MESSAGE value="这个版本是第四次更新" />
     <MESSAGE value="这个版本是第五次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="这个版本是第五次更新" />
+    <MESSAGE value="这个版本是第六次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="这个版本是第六次更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1095,16 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarouselController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/resources/mapper/StoreActivityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1198,8 +1184,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/StoreController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        <state relative-caret-position="150">
+          <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarouselController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
