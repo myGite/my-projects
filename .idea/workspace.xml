@@ -7,7 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4491d332-5f3b-4328-aef0-b1431efd2447" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/dao/StoreDAO.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/dao/StoreDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/StoreService.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/StoreService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/impl/StoreServiceImpl.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/service/impl/StoreServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/dao/StoreDAO.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/dao/StoreDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/StoreService.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/StoreService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/impl/StoreServiceImpl.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/service/impl/StoreServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/CarController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/GoodsTypeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/StoreReviewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/my-projects-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/yaxin/my/projects/web/admin/web/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-projects-web-admin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/my-projects-web-admin/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-projects-dependencies/target/" />
@@ -54,8 +74,8 @@
       <file leaf-file-name="CarouselController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarouselController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="475">
+              <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -607,7 +627,7 @@
       <workItem from="1573709448269" duration="270000" />
       <workItem from="1573711605501" duration="10893000" />
       <workItem from="1573784072669" duration="2454000" />
-      <workItem from="1574059269828" duration="3255000" />
+      <workItem from="1574059269828" duration="3346000" />
     </task>
     <task id="LOCAL-00001" summary="商品实体层增加了一个商店的属性storeid&#10;新建了一个图片轮播的实体层">
       <created>1573716395909</created>
@@ -672,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574066506094</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="这个版本是第七次更新">
+      <created>1574066909647</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574066909647</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -708,7 +735,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228894000" />
+    <option name="totallyTimeSpent" value="228985000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,7 +762,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40271494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40271494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22171946" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -743,7 +770,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3642534" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3642534" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27628756" sideWeight="0.49224806" order="0" side_tool="false" content_ui="combo" />
@@ -774,7 +801,8 @@
     <MESSAGE value="这个版本是第四次更新" />
     <MESSAGE value="这个版本是第五次更新" />
     <MESSAGE value="这个版本是第六次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="这个版本是第六次更新" />
+    <MESSAGE value="这个版本是第七次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="这个版本是第七次更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1194,8 +1222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-projects-web-admin/src/main/java/com/yaxin/my/projects/web/admin/web/controller/CarouselController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="475">
+          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
