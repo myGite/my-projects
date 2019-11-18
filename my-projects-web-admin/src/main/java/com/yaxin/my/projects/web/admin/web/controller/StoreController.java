@@ -4,7 +4,6 @@ import com.yaxin.my.projects.commons.dto.BaseResult;
 import com.yaxin.my.projects.domain.Carousel;
 import com.yaxin.my.projects.domain.Store;
 import com.yaxin.my.projects.domain.StoreActivity;
-import com.yaxin.my.projects.web.admin.service.CarouselService;
 import com.yaxin.my.projects.web.admin.service.StoreActivityService;
 import com.yaxin.my.projects.web.admin.service.StoreService;
 import org.apache.commons.lang3.StringUtils;
@@ -37,9 +36,6 @@ public class StoreController {
 
     @Autowired
     private StoreActivityService storeActivityService;
-
-    @Autowired
-    private CarouselService carouselService;
 
     /**
      * 通过商家的id获取商家的活动信息
@@ -89,12 +85,9 @@ public class StoreController {
     public BaseResult storeListFun(Model model){
         //引入自定义的后台向前台响应的结果集
         BaseResult baseResult=null;
-        //获得所有商家的信息
-        List<Store> storesList=storeService.findStoreList();
-        //获取所有的轮播图片
-        List<Carousel> carouselList = carouselService.findAll();
+        //获取商家的所有信息
+        List<Map<String, Object>> storesList = storeService.findStoreList();
         model.addAttribute("storesList",storesList);
-        model.addAttribute("carouselList",carouselList);
         baseResult=BaseResult.success("获取所有商家信息成功！",model);
         return baseResult;
     }

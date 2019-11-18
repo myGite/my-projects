@@ -3,6 +3,7 @@ package com.yaxin.my.projects.web.admin.service;
 import com.yaxin.my.projects.domain.Store;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 商家Service层
@@ -19,5 +20,5 @@ public interface StoreService {
      * 获取所有商家的信息
      * @return
      */
-    List<Store> findStoreList();
+    List<Map<String, Object>> findStoreList();
 }

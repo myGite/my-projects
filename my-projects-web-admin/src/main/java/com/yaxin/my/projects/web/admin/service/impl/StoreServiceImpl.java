@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class StoreServiceImpl implements StoreService {
@@ -20,7 +21,7 @@ public class StoreServiceImpl implements StoreService {
     }
 
     @Override
-    public List<Store> findStoreList() {
+    public List<Map<String, Object>> findStoreList() {
         return storeDAO.selectStoreList();
     }
 }
