@@ -22,7 +22,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping(value = "/api/storereview")
-public class StoreReviewController extends BathController {
+public class StoreReviewController {
 
     @Autowired
     private StoreReviewService storeReviewService;

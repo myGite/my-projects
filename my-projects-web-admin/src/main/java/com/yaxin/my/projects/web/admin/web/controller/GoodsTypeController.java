@@ -18,7 +18,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping(value = "/api/shop")
-public class GoodsTypeController extends BathController {
+public class GoodsTypeController {
     @Autowired
     private GoodsTypeService goodsTypeService;
 

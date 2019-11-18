@@ -25,7 +25,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping(value = "/api/shop")
-public class GoodsController extends BathController {
+public class GoodsController {
     @Autowired
     private GoodsService goodsService;
 

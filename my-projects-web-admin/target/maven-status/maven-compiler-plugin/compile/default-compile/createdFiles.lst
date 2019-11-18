@@ -14,10 +14,8 @@ com\yaxin\my\projects\web\admin\service\UserService.class
 com\yaxin\my\projects\web\admin\service\impl\CarServiceImpl.class
 com\yaxin\my\projects\web\admin\web\controller\UserController.class
 com\yaxin\my\projects\web\admin\dao\StoreReviewDAO.class
-com\yaxin\my\projects\web\admin\web\controller\RouteController.class
 com\yaxin\my\projects\web\admin\service\CarouselService.class
 com\yaxin\my\projects\web\admin\service\impl\StoreReviewServiceImpl.class
-com\yaxin\my\projects\web\admin\web\controller\BathController.class
 com\yaxin\my\projects\web\admin\dao\OrderDao.class
 com\yaxin\my\projects\web\admin\service\impl\OrderServiceImpl.class
 com\yaxin\my\projects\web\admin\service\StoreReviewService.class

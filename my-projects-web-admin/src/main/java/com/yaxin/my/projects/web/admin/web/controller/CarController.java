@@ -21,7 +21,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping("/api/car")
-public class CarController extends BathController {
+public class CarController {
 
     @Autowired
     private CarService carService;

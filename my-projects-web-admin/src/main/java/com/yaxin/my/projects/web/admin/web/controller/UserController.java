@@ -24,7 +24,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping(value = "/api/user")
-public class UserController extends BathController {
+public class UserController {
 
     @Autowired
     private UserService userService;

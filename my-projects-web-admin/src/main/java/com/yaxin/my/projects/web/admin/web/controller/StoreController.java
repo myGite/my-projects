@@ -29,8 +29,8 @@ import java.util.*;
  */
 @CrossOrigin(origins = "*", maxAge = 3600)
 @Controller
-@RequestMapping(value = "/store")
-public class StoreController extends BathController {
+@RequestMapping(value = "/api/store")
+public class StoreController {
 
     @Autowired
     private StoreService storeService;
@@ -45,7 +45,7 @@ public class StoreController extends BathController {
      * 通过商家的id获取商家的活动信息
      */
     @ResponseBody
-    @RequestMapping(value = "/api/storeid")
+    @RequestMapping(value = "/storeid")
     public BaseResult storeidFun(HttpServletRequest request, HttpServletResponse response, Model model){
         //引入自定义的后台向前台响应的结果集
         BaseResult baseResult=null;

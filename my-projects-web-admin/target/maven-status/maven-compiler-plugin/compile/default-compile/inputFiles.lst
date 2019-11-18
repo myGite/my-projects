@@ -8,7 +8,6 @@ D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\y
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\impl\GoodsTypeServiceImpl.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\GoodsTypeController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\impl\GoodsServiceImpl.java
-D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\RouteController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\CarDAO.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\CarouselDAO.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\GoodsDAO.java
@@ -24,7 +23,6 @@ D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\y
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\dao\StoreActivityDAO.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\CarService.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\StoreActivityService.java
-D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\BathController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\CarController.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\service\impl\CarouselServiceImpl.java
 D:\SpringProject\WorkSpace\my-projects\my-projects-web-admin\src\main\java\com\yaxin\my\projects\web\admin\web\controller\UserController.java
