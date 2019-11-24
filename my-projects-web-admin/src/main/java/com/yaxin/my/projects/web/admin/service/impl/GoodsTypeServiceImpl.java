@@ -19,4 +19,9 @@ public class GoodsTypeServiceImpl implements GoodsTypeService {
     public List<GoodsType> findAll() {
         return goodsTypeDAO.selectAll();
     }
+
+    @Override
+    public GoodsType findByGoodsTypeId(Integer goodstypeid) {
+        return goodsTypeDAO.selectByGoodsTypeId(goodstypeid);
+    }
 }

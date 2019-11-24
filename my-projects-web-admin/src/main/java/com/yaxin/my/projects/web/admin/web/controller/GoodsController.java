@@ -89,25 +89,35 @@ public class GoodsController {
      */
     @ResponseBody
     @RequestMapping(value = "/all")
-    public BaseResult goodsAllFun(HttpServletRequest request, Model model){
+    public Map<String, List<Object>> goodsAllFun(HttpServletRequest request, Model model){
         //引入自定义的后台向前台响应的结果集
-        BaseResult baseResult=null;
+        //BaseResult baseResult=null;
         //前台需要传入商家的id
         String storeid1 = request.getParameter("storeid");
         int storeid = Integer.parseInt(storeid1);
+        //获取所有的商品类型id
         List<GoodsType> goodsTypeList = goodsTypeService.findAll();
-        Map<String,Object> map = new HashMap<>();
+        Map<String,List<Object>> map = new HashMap<>();
+        Map<String,Object> map1 = new HashMap<>();
+        List<Object> list = new ArrayList<>();
         int goodsTypeid;
         for (GoodsType goodsType : goodsTypeList){
             goodsTypeid=goodsType.getGoodstypeid();
+            GoodsType goodsType1 = goodsTypeService.findByGoodsTypeId(goodsTypeid);
+            map1.put("name",goodsType1.getGoodstypename());
             List<Goods> goodsList = goodsService.findByTowid(storeid, goodsTypeid);
-            map.put(String.valueOf(goodsTypeid),goodsList);
+            map1.put("foods",goodsList);
+            map1 = new HashMap<>();
+            //map.put("foods"+goodsTypeid,map1);
+            list.add(map1);
         }
         //获取所有的商品类型
-        List<GoodsType> goodsTypes = goodsTypeService.findAll();
+        /*List<GoodsType> goodsTypes = goodsTypeService.findAll();
         model.addAttribute("foods",map);
-        model.addAttribute("goodsTypes",goodsTypes);
+        //model.addAttribute("goodsTypes",goodsTypes);
         baseResult = BaseResult.success("获取数据成功！",model);
-        return baseResult;
+        return baseResult;*/
+        map.put("goods", list);
+        return map;
     }
 }

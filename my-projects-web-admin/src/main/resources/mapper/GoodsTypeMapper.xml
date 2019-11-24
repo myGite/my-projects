@@ -9,5 +9,14 @@
         FROM
         takeaway.my_goods_type
     </select>
+    
+    <select id="selectByGoodsTypeId" parameterType="java.lang.Integer" resultType="com.yaxin.my.projects.domain.GoodsType">
+        SELECT 	goodstypeid,
+        goodstypename
+
+        FROM
+        takeaway.my_goods_type
+        WHERE goodstypeid = #{goodstypeid}
+    </select>
 
 </mapper>
