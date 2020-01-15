@@ -53,7 +53,7 @@
     <!-- 可以在没有接口的情况下添加aop -->
     <aop:aspectj-autoproxy proxy-target-class="true"/>
 
-    <!-- 事物处理 -->
+    <!-- 事物处理  切点和顾问 -->
     <aop:config>
         <aop:pointcut id="pc" expression="execution(* com.yaxin.my.projects.web.admin.service..*.*(..))" />
         <aop:advisor pointcut-ref="pc" advice-ref="txAdvice" />
@@ -91,5 +91,30 @@
         </constructor-arg>
     </bean>
     <!-- 由于CorsFilter跟通常的Filter不一样，Spring对其做了很多的改造，所以加载的方式要使用DelegatingFilterProxy，通过Spring的方式把它放入容器中 -->
+
+    <bean id="captchaProducer" class="com.google.code.kaptcha.impl.DefaultKaptcha">
+        <property name="config">
+            <bean class="com.google.code.kaptcha.util.Config">
+                <constructor-arg>
+                    <props>
+                        <prop key="kaptcha.border">yes</prop>
+                        <!-- 验证码边框的颜色 R,G,B -->
+                        <prop key="kaptcha.border.color">204,204,204</prop>
+                        <!-- 验证码字体的颜色 -->
+                        <prop key="kaptcha.textproducer.font.color">255,87,87</prop>
+                        <!-- 验证码图片的宽度和高度 -->
+                        <prop key="kaptcha.image.width">125</prop>
+                        <prop key="kaptcha.image.height">42</prop>
+                        <!-- 验证码字体的大小 -->
+                        <prop key="kaptcha.textproducer.font.size">42</prop>
+                        <prop key="kaptcha.session.key">code</prop>
+                        <prop key="kaptcha.textproducer.char.length">4</prop>
+                        <!-- 验证码的字体样式 -->
+                        <prop key="kaptcha.textproducer.font.names">宋体,楷体,微软雅黑</prop>
+                    </props>
+                </constructor-arg>
+            </bean>
+        </property>
+    </bean>
 
 </beans>
