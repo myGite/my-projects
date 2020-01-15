@@ -125,6 +125,12 @@
             <artifactId>fastjson</artifactId>
         </dependency>
         <!-- Json End -->
+        <!-- Google Code Begin -->
+        <dependency>
+            <groupId>com.google.code.kaptcha</groupId>
+            <artifactId>kaptcha</artifactId>
+        </dependency>
+        <!-- Google Code End -->
 
     </dependencies>
 

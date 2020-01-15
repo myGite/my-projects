@@ -1,8 +1,11 @@
 package com.yaxin.my.projects.web.admin.web.controller;
 
+import com.google.code.kaptcha.Constants;
 import com.yaxin.my.projects.commons.dto.BaseResult;
+import com.yaxin.my.projects.commons.dto.KaptchaDTO;
 import com.yaxin.my.projects.domain.User;
 import com.yaxin.my.projects.web.admin.service.UserService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -37,18 +40,22 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "/login")
-    public BaseResult login(HttpServletRequest request, HttpServletResponse response, Model model) {
+    public BaseResult login(HttpServletRequest request,KaptchaDTO kaptchaDTO, HttpServletResponse response, Model model) {
         //引入自定义的后台向前台响应的结果集
         BaseResult baseResult = null;
-        String nickname = request.getParameter("nickname");
-        String password = request.getParameter("password");
-        User user = userService.findByNickname(nickname, password);
-        if (user != null) {
-            request.getSession().setAttribute("user", user);
-            model.addAttribute("user", user);
-            baseResult = BaseResult.success("登录成功！", model);
-        } else {
-            baseResult = BaseResult.fail("登录失败，用户名或者密码错误！");
+        if (checkKaptcha(kaptchaDTO,request)){
+            String nickname = request.getParameter("nickname");
+            String password = request.getParameter("password");
+            User user = userService.findByNickname(nickname, password);
+            if (user != null) {
+                request.getSession().setAttribute("user", user);
+                model.addAttribute("user", user);
+                baseResult = BaseResult.success("登录成功！", model);
+            } else {
+                baseResult = BaseResult.fail("登录失败，用户名或者密码错误！");
+            }
+        }else{
+            baseResult = BaseResult.fail("验证码输入有误，请重新输入！");
         }
         return baseResult;
     }
@@ -100,6 +107,15 @@ public class UserController {
             baseResult = BaseResult.success("注册用户成功");
         }
         return baseResult;
+    }
+
+    public static Boolean checkKaptcha(KaptchaDTO kaptchaDTO, HttpServletRequest request){
+        String strCaptcha = (String) request.getSession().getAttribute(Constants.KAPTCHA_SESSION_KEY);
+        if (StringUtils.equals(strCaptcha, kaptchaDTO.getKaptcha())){
+            return true;
+        }else {
+            return false;
+        }
     }
 
 }
